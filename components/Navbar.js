@@ -1,7 +1,9 @@
 import React from 'react'
 import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
 
-export default props =>
+export default function NavBar(){
+  return(
+
     <>
     <Navbar bg="light" variant="light" fixed="top">
     <Container>
@@ -20,3 +22,5 @@ export default props =>
   </Navbar>
 
     </>
+  )
+}

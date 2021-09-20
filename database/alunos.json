@@ -1,0 +1,48 @@
+{
+  "alunos":[
+      {
+          "id_usp": 1,
+          "nome": "André Sanches",
+          "email": "andre_2009_luis@hotmail.com",
+          "orientador": "Marcelo Medeiros Eler",
+          "curriculum": "https://...",
+          "lastUpdate": "06/05/2020",
+          "lastResult": "9,2",
+          "course": "Ciência da Computação",
+          "semester": "8"
+      },
+      {
+          "id_usp": 2,
+          "nome": "Fernanda Arika Sasabuchi",
+          "email": "fernanda.sasabuchi@unesp.com",
+          "orientador": "Marcelo Medeiros Eler",
+          "curriculum": "https://...",
+          "lastUpdate": "01/02/2021",
+          "lastResult": "7.8",
+          "course": "Ciência da Computação",
+          "semester": "7"
+      },
+      {
+          "id_usp": 3,
+          "nome": "Igor Fernando Furucho",
+          "email": "igor.furucho@unesp.br",
+          "orientador": "Marcelo Medeiros Eler",
+          "curriculum": "https://...",
+          "lastUpdate": "11/08/2020",
+          "lastResult": "8,9",
+          "course": "Ciência da Computação",
+          "semester": "8"
+      },
+      {
+          "id_usp": 4,
+          "nome": "Leticia Yuri Takaki Kavakita",
+          "email": "leticia.takaki@unesp.br",
+          "orientador": "Marcelo Medeiros Eler",
+          "curriculum": "https://...",
+          "lastUpdate": "03/17/2021",
+          "lastResult": "9,4",
+          "course": "Ciência da Computação",
+          "semester": "8"
+      }
+  ]
+}
