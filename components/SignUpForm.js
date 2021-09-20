@@ -18,7 +18,7 @@ export default function SignUp(){
           alert('Errou tudo, preencha email ou senha');
           return;
       }
-      axios.post('http://localhost:5000/usuarios/', informacoes).then(response => {
+      axios.post('http://localhost:5000/users', informacoes).then(response => {
         if(response.data.logged) alert('Usuário cadastrado com sucesso');
         else alert('Atenção! Usuário cadastrado')
         });

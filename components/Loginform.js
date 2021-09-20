@@ -18,7 +18,7 @@ export default function Login(){
           alert('Errou tudo, preencha email ou senha');
           return;
       }
-      axios.post('http://localhost:5000/login/', informacoes).then(response => {
+      axios.post('http://localhost:5000/login', informacoes).then(response => {
         if(response.data.logged) alert('Usuário autenticado com sucesso');
         else alert('Atenção! E-mail ou senha inválidos')
         });
