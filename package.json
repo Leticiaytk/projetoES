@@ -1,5 +1,5 @@
 {
-  "name": "learn-starter",
+  "name": "projeto-es",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.0",
+    "emailjs-com": "^3.2.0",
+    "eslint": "^7.32.0",
     "next": "^11.0.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-dom": "17.0.2",
+    "sass": "^1.41.1"
   }
 }

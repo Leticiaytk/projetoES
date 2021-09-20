@@ -1,22 +1,20 @@
 import React from 'react';
-//import styles from './loginCadastro.css';
+import css from './LoginCadastro.module.scss';
 import Loginform from '../components/Loginform';
 import SignUpForm from '../components/SignUpForm';
 
 class LoginCadastro extends React.Component{
   render(){
     return (
-      <div className='box'>
-          <div className='Conteudo'>
-              <div className='loginForm'>
-                  <Loginform />
-              </div>
-              <div className='signUpForm'>
-                  <SignUpForm />
-              </div>
-          </div>
-          <div className='Footer'>
-              <p> Trabalho Semestral de Engenharia de Software</p>
+      <div className={css.container}>
+          <div className={css.content}>
+            <div className={css.login}>
+              <Loginform></Loginform>
+            </div>
+
+            <div className={css.signUp}>
+              <SignUpForm></SignUpForm>
+            </div>
           </div>
       </div>
   )

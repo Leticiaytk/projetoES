@@ -1,39 +1,27 @@
 import React from 'react'
-//import styles from './conteudo.css'
+import {Form, Button} from 'react-bootstrap'
 
 export default props =>
     <>
-        <h3 className="titulo">Login Form</h3>
+    <h3> Login</h3>
+       <Form>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" placeholder="Email" />
+        </Form.Group>
 
-        <input
-            className="Input"
-            type="email"
-            name="email"
-            placeholder="Email"
-        />
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Senha</Form.Label>
+          <Form.Control type="password" placeholder="Senha" />
+        </Form.Group>
 
-        <input
-            className="Input"
-            type="password"
-            name="password"
-            placeholder="Password"
-        />
+        <Form.Group>
+        <a href="/">Esqueci minha senha</a>
+        </Form.Group>
 
-        <div className="RePass">
-            <form>
-                <input
-                    className="InputCheckBox"
-                    type="checkbox"
-                    name="checkbox"
-                    value="Remember me">
-                </input>
-                <label className="LabelCheckBox">Lembrar-me</label>
-            </form>
-
-            <a className="LinkPassword" href="https://www.google.com" target="_blank">Esqueceu a senha?</a>
-        </div>
-
-        <button className="ButtonLogin" type="submit">Login</button>
-
+        <Button variant="primary" type="submit">
+          Entrar
+        </Button>
+      </Form>
 
     </>
